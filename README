@@ -2,19 +2,24 @@ Install:
     pip install -r requirements.txt
 
 Data structure:
-data
-  |--folder1
-        |--img1.jpg
-        |--img2.jpg
-        |...
-  |--folder2
-        |--img1.jpg
-        |--img2.jpg
-        |...
-  |...
+    data
+      |--folder1
+            |--img1.jpg
+            |--img2.jpg
+            |...
+      |--folder2
+            |--img1.jpg
+            |--img2.jpg
+            |...
+      |...
+      |
+      |--label.json
 
 Run:
     python main.py
+
+Annotate:
+    Open web browser and go to localhost:5000
 
 Result:
     data/label.json
